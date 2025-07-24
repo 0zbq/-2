@@ -11,6 +11,11 @@
      git log --stat                                       查看提交的历史记录并查看每次提交所修改的文件
      git diff 某次提交的commit_ID           查看ID所对应的提交所修改的内容
 
-5.恢复
+5.切换
+     git checkout   分支名称                     从当前分支切换到指定的分支 
+     git checkout   -                                   快速切换回前一个分支
+     git checkout -b 新的分支名               创建一个新分支并立即切换到新创建的分支
+
+
      git checkout HEAD 要恢复的文件         从最后一次的提交将要恢复的文件复制到工作区
      
