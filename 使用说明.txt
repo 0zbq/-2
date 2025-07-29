@@ -28,6 +28,6 @@
            
 
 8.链接github
-      git remote+自定义别名+地址             使本地仓库与GitHub上的远程仓库建立联系
-      git push+别名+要上传的分支               上传本地仓库中的分支
-      git pull+别名+要拉取得分支                  拉取远程仓库中的分支
+      git remote add +自定义别名+地址             使本地仓库与GitHub上的远程仓库建立联系
+      git push+别名+要上传的分支                       上传本地仓库中的分支
+      git pull+别名+要拉取得分支                         拉取远程仓库中的分支
